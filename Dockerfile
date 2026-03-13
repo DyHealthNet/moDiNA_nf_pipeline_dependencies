@@ -1,4 +1,4 @@
-FROM mambaorg/micromamba:1.5.1-lunar
+FROM --platform=linux/amd64 mambaorg/micromamba:1.5.1-lunar
 
 # use alpine such that ps is available
 LABEL image.author.name="Lis Arend"
